@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDPlusPlus_Builder_Version_1.0.0>
+  <top>
+    <components> chessVariantKernel1&#xd;</components>
+  </top>
+  <chessVariantKernel1>
+    <type> cell&#xd;</type>
+    <width> 13&#xd;</width>
+    <height> 9&#xd;</height>
+    <delay> transport&#xd;</delay>
+    <defaultDelayTime> 100&#xd;</defaultDelayTime>
+    <border> wrapped&#xd;</border>
+    <neighbors> chessVariantKernel1(-1,-1) chessVariantKernel1(-1,0) chessVariantKernel1(-1,1) &#xd;</neighbors>
+    <neighbors> chessVariantKernel1(0,-1)  chessVariantKernel1(0,0)  chessVariantKernel1(0,1)&#xd;</neighbors>
+    <neighbors> chessVariantKernel1(1,-1)  chessVariantKernel1(1,0)  chessVariantKernel1(1,1)&#xd;</neighbors>
+    <initialvalue> 0&#xd;</initialvalue>
+    <initialCellsValue> chessVariantKernel1.val&#xd;</initialCellsValue>
+    <localtransition> chessVariantKernel1-rule&#xd;</localtransition>
+  </chessVariantKernel1>
+  <chessVariantKernel1-rule>
+    <rule> 1 100 { (0,0) = 1 and ( trueCount = 3 or trueCount = 4 ) }&#xd;</rule>
+    <rule> 1 100 { (0,0) = 0 and ( trueCount = 2 or trueCount = 3 ) } &#xd;</rule>
+    <rule> 0 100 { t }&#xd;</rule>
+  </chessVariantKernel1-rule>
+</CDPlusPlus_Builder_Version_1.0.0>

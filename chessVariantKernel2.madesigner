@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="http://www.example.org/DEVSModeler" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <CoupledModelType xmi:id="_6tni0M_OEeenyfV5cmfc-A" modelName="top" defined="true" sourceFileRelativePath="chessVariantKernel2.ma">
+    <coupledModels xmi:type="CoupledModelInstance" xmi:id="_6tni0c_OEeenyfV5cmfc-A" instanceName="chessVariantKernel2">
+      <modelType xmi:type="CoupledModelType" xmi:id="_6tni0s_OEeenyfV5cmfc-A" modelName="chessVariantKernel2"/>
+    </coupledModels>
+  </CoupledModelType>
+  <notation:Diagram xmi:id="_6tni08_OEeenyfV5cmfc-A" type="DEVS" element="_6tni0M_OEeenyfV5cmfc-A" name="chessVariantKernel2.madesigner" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_6tni1M_OEeenyfV5cmfc-A"/>
+  </notation:Diagram>
+</xmi:XMI>

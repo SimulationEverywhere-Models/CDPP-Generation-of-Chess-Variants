@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDPlusPlus_Builder_Version_1.0.0>
+  <top>
+    <components> chessVariantKernel2SmallGrid&#xd;</components>
+  </top>
+  <chessVariantKernel2SmallGrid>
+    <type> cell&#xd;</type>
+    <width> 9&#xd;</width>
+    <height> 5&#xd;</height>
+    <delay> transport&#xd;</delay>
+    <defaultDelayTime> 100&#xd;</defaultDelayTime>
+    <border> wrapped&#xd;</border>
+    <neighbors> chessVariantKernel2SmallGrid(-1,-1) chessVariantKernel2SmallGrid(-1,0) chessVariantKernel2SmallGrid</neighbors>
+    <neighbors> chessVariantKernel2SmallGrid(0,-1)  chessVariantKernel2SmallGrid(0,0)  chessVariantKernel2SmallGrid</neighbors>
+    <neighbors> chessVariantKernel2SmallGrid(1,-1)  chessVariantKernel2SmallGrid(1,0)  chessVariantKernel2SmallGrid</neighbors>
+    <initialvalue> 0&#xd;</initialvalue>
+    <initialCellsValue> chessVariantKernel2SmallGrid.val&#xd;</initialCellsValue>
+    <localtransition> chessVariantKernel2SmallGrid-rule&#xd;</localtransition>
+  </chessVariantKernel2SmallGrid>
+  <chessVariantKernel2SmallGrid-rule>
+    <rule> 1 100 { (0,0) = 1 and ( trueCount = 3 or trueCount = 4 ) }&#xd;</rule>
+    <rule> 1 100 { (0,0) = 0 and ( trueCount = 2 or trueCount = 3 ) } &#xd;</rule>
+    <rule> 0 100 { t }&#xd;</rule>
+  </chessVariantKernel2SmallGrid-rule>
+</CDPlusPlus_Builder_Version_1.0.0>

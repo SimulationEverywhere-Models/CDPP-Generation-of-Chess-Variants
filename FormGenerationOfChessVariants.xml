@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Models>
+	<Model name="chessVariantKernel1" type="coupled" description="a coupled system for a Generation of chess variants using kernel1.">
+		<Inputs>	
+							
+		</Inputs>
+		<Outputs>	
+			
+		</Outputs>
+		<Files>	
+			<File name="chessVariantKernel1.ma" type="MA" location="/"/>
+			<File name="chessVariantKernel1.val" type="VAL" location="/"/>
+			<File name="chessVariantKernel1.log" type="LOG" location="/"/>
+			<File name="chessVariantKernel1DRW.drw" type="DRW" location="/"/>
+			<File name="chessVariantKernel1.bat" type="BAT" location="/"/>
+			<File name="chessVariantKernel1.pal" type="PAL" location="/"/>
+		</Files>
+	</Model>
+	
+	<Model name="chessVariantKernel2" type="coupled" description="Generation of chess variants using kernel2">
+		<Inputs>	
+							
+		</Inputs>
+		<Outputs>	
+			
+		</Outputs>
+		<Files>	
+			<File name="chessVariantKernel2.ma" type="MA" location="/"/>
+			<File name="chessVariantKernel2.val" type="VAL" location="/"/>
+			<File name="chessVariantKernel2.log" type="LOG" location="/"/>
+			<File name="chessVariantKernel2DRW.drw" type="DRW" location="/"/>
+			<File name="chessVariantKernel2.bat" type="BAT" location="/"/>
+			<File name="chessVariantKernel2.pal" type="PAL" location="/"/>
+		</Files>
+	</Model>
+	
+	<Model name="chessVariantKernel1SmallGrid" type="coupled" description="Generation of chess variants using kernel1 on small grid">
+		<Inputs>	
+							
+		</Inputs>
+		<Outputs>	
+			
+		</Outputs>
+		<Files>	
+			<File name="chessVariantKernel1SmallGrid.ma" type="MA" location="/"/>
+			<File name="chessVariantKernel1SmallGrid.val" type="VAL" location="/"/>
+			<File name="chessVariantKernel1SmallGrid.log" type="LOG" location="/"/>
+			<File name="chessVariantKernel1SmallGridDRW.drw" type="DRW" location="/"/>
+			<File name="chessVariantKernel1SmallGrid.bat" type="BAT" location="/"/>
+			<File name="chessVariantKernel1SmallGrid.pal" type="PAL" location="/"/>
+		</Files>
+	</Model>
+
+		<Model name="chessVariantKernel2SmallGrid" type="coupled" description="Generation of chess variants using kernel2 on small grid">
+		<Inputs>	
+							
+		</Inputs>
+		<Outputs>	
+			
+		</Outputs>
+		<Files>	
+			<File name="chessVariantKernel2SmallGrid.ma" type="MA" location="/"/>
+			<File name="chessVariantKernel2SmallGrid.val" type="VAL" location="/"/>
+			<File name="chessVariantKernel2SmallGrid.log" type="LOG" location="/"/>
+			<File name="chessVariantKernel2SmallGridDRW.drw" type="DRW" location="/"/>
+			<File name="chessVariantKernel2SmallGrid.bat" type="BAT" location="/"/>
+			<File name="chessVariantKernel2SmallGrid.pal" type="PAL" location="/"/>
+		</Files>
+	</Model>
+	
+		
+</Models>
